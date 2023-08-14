@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5b5d872-21b6-4066-89b6-f0b10fad8464" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/ProjectXadrez.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/boardgame/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/boardgame/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/boardgame/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/BoardException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/ChessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/ChessMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/ChessPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/Serial.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/pieces/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/chess/pieces/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/ProjectXadrez.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/boardgame/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/boardgame/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/boardgame/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/BoardException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/ChessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/ChessMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/ChessPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/ChessPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/Serial.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/ProjectXadrez/chess/pieces/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/boardgame/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/boardgame/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/boardgame/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/BoardException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/ChessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/ChessMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/ChessPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/ChessPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Principal/out/production/Xadrez/chess/pieces/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/UI.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/boardgame/Board.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/boardgame/Piece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/boardgame/Position.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/BoardException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/ChessException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/ChessMatch.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/ChessPiece.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/ChessPosition.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/Color.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/pieces/King.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/chess/pieces/Rook.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/boardgame/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/boardgame/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/boardgame/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/BoardException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/ChessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/ChessMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/ChessPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/ChessPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Xadrez/out/production/Xadrez/chess/pieces/Rook.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess/ChessMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/README.md" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/UI.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/boardgame/Board.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/boardgame/Piece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/boardgame/Position.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/BoardException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/ChessException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/ChessMatch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/ChessPiece.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/ChessPosition.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/Color.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/pieces/King.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Xadrez/chess/pieces/Rook.class" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Tz6AwV9Hdr0rRstE0zH6KluNfc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Main" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjectXadrez" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5b5d872-21b6-4066-89b6-f0b10fad8464" name="Changes" comment="" />
+      <created>1692033422343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692033422343</updated>
+      <workItem from="1692033430241" duration="90000" />
+      <workItem from="1692033533425" duration="14000" />
+      <workItem from="1692033561278" duration="48000" />
+    </task>
+    <servers />
+  </component>
+</project>
