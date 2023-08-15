@@ -5,12 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f5b5d872-21b6-4066-89b6-f0b10fad8464" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/chess/pieces/Bishop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chess/pieces/Knight.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/chess/pieces/Pawn.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/chess/ChessMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess/ChessMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/chess/ChessPiece.java" beforeDir="false" afterPath="$PROJECT_DIR$/chess/ChessPiece.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/ProjectXadrez/chess/ChessMatch.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/ProjectXadrez/chess/ChessMatch.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,5 +82,20 @@
       <workItem from="1692033561278" duration="48000" />
     </task>
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
   </component>
 </project>
