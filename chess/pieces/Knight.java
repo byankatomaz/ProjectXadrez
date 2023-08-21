@@ -3,12 +3,12 @@ package chess.pieces;
 import boardgame.Board;
 import boardgame.Position;
 import chess.ChessPiece;
-import chess.Color;
+import chess.ColorT;
 
 public class Knight extends ChessPiece {
 
-    public Knight(Board board, Color color) {
-        super(board, color);
+    public Knight(Board board, ColorT colorT) {
+        super(board, colorT);
     }
 
     @Override

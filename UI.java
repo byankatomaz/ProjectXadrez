@@ -1,13 +1,12 @@
 import chess.ChessMatch;
 import chess.ChessPiece;
 import chess.ChessPosition;
-import chess.Color;
+import chess.ColorT;
 
 import java.util.Arrays;
 import java.util.InputMismatchException;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class UI {
 
@@ -97,7 +96,7 @@ public class UI {
             System.out.print('-' + ANSI_RESET);
         }
         else {
-            if (piece.getColor() == Color.WHITE){
+            if (piece.getColor() == ColorT.WHITE){
                 System.out.print(ANSI_WHITE + piece + ANSI_RESET);
             }
             else {
@@ -108,8 +107,8 @@ public class UI {
     }
 
     private static void printCapturedPieces(List<ChessPiece> captured){
-        List<ChessPiece> white = captured.stream().filter(x -> x.getColor() == Color.WHITE).toList();
-        List<ChessPiece> black = captured.stream().filter(x -> x.getColor() == Color.BLACK).toList();
+        List<ChessPiece> white = captured.stream().filter(x -> x.getColor() == ColorT.WHITE).toList();
+        List<ChessPiece> black = captured.stream().filter(x -> x.getColor() == ColorT.BLACK).toList();
 
         System.out.println("Captured pieces: ");
         System.out.print("White: ");
