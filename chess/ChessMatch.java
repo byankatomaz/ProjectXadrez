@@ -349,6 +349,8 @@ public class ChessMatch {
         piecesOnTheBoard.add(piece);
     }
 
+
+
     private void initialSetup(){
         placeNewPiece('a', 1, new Rook(board, ColorT.WHITE));
         placeNewPiece('b', 1, new Knight(board, ColorT.WHITE));

@@ -1,70 +1,50 @@
 package gui;
 
-import chess.ChessMatch;
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.List;
 
-import javax.swing.*;
-import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
+public enum ChessGUI {
 
-public class ChessGUI extends JFrame {
+    INSTANCE;
 
-    private ChessMatch chessMatch;
-    private JButton[][] chessBoardSquares = new JButton[8][8];
+    public final List<Boolean> FIRST_COLUMN = initColumn(0);
+    public final List<Boolean> SECOND_COLUMN = initColumn(1);
+    public final List<Boolean> THIRD_COLUMN = initColumn(2);
+    public final List<Boolean> FOURTH_COLUMN = initColumn(3);
+    public final List<Boolean> FIFTH_COLUMN = initColumn(4);
+    public final List<Boolean> SIXTH_COLUMN = initColumn(5);
+    public final List<Boolean> SEVENTH_COLUMN = initColumn(6);
+    public final List<Boolean> EIGHTH_COLUMN = initColumn(7);
+    public final List<Boolean> EIGHTH_RANK = initRow(0);
+    public final List<Boolean> SEVENTH_RANK = initRow(8);
+    public final List<Boolean> SIXTH_RANK = initRow(16);
+    public final List<Boolean> FIFTH_RANK = initRow(24);
+    public final List<Boolean> FOURTH_RANK = initRow(32);
+    public final List<Boolean> THIRD_RANK = initRow(40);
+    public final List<Boolean> SECOND_RANK = initRow(48);
+    public final List<Boolean> FIRST_RANK = initRow(56);
 
-    public ChessGUI() {
-        chessMatch = new ChessMatch();
-        initializeGUI();
+    public static final int NUM_TILES_PER_ROW = 8;
+    public static final int NUM_TILES = 64;
+
+    private static List<Boolean> initColumn(int columnNumber) {
+        final Boolean[] column = new Boolean[NUM_TILES];
+        Arrays.fill(column, false);
+        do {
+            column[columnNumber] = true;
+            columnNumber += NUM_TILES_PER_ROW;
+        } while (columnNumber < NUM_TILES);
+        return Collections.unmodifiableList(Arrays.asList((column)));
     }
 
-    private void initializeGUI() {
-        // Configure a janela principal
-        setTitle("Jogo de Xadrez");
-        setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-        setSize(600, 600);
-        setLayout(new GridLayout(8, 8));
-
-        // Crie os botões para representar o tabuleiro
-        for (int row = 0; row < 8; row++) {
-            for (int col = 0; col < 8; col++) {
-                JButton button = new JButton();
-                chessBoardSquares[row][col] = button;
-                add(button);
-
-                // Adicione um ActionListener para responder aos cliques
-                button.addActionListener(new ChessBoardListener(row, col));
-            }
-        }
-
-        // Atualize a interface com o estado inicial do jogo
-        updateChessboard();
-    }
-
-    private void updateChessboard() {
-        // Atualize a interface com base no estado do jogo
-        // Você deve implementar essa lógica de acordo com a estrutura do seu jogo
-    }
-
-    private class ChessBoardListener implements ActionListener {
-        private int row;
-        private int col;
-
-        public ChessBoardListener(int row, int col) {
-            this.row = row;
-            this.col = col;
-        }
-
-        @Override
-        public void actionPerformed(ActionEvent e) {
-            // Lide com os cliques do jogador aqui
-            // Por exemplo, mova as peças no jogo e atualize a interface
-        }
-    }
-
-    public static void main(String[] args) {
-        SwingUtilities.invokeLater(() -> {
-            ChessGUI gui = new ChessGUI();
-            gui.setVisible(true);
-        });
+    private static List<Boolean> initRow(int rowNumber) {
+        final Boolean[] row = new Boolean[NUM_TILES];
+        Arrays.fill(row, false);
+        do {
+            row[rowNumber] = true;
+            rowNumber++;
+        } while (rowNumber % NUM_TILES_PER_ROW != 0);
+        return Collections.unmodifiableList(Arrays.asList(row));
     }
 }

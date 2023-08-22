@@ -61,6 +61,17 @@ public class Table {
         });
 
         fileMenu.add(openPNG);
+
+        final JMenuItem exitMenuItem = new JMenuItem("Exit");
+        exitMenuItem.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                System.exit(0);
+            }
+        });
+
+        fileMenu.add(exitMenuItem);
+
         return fileMenu;
     }
 
@@ -91,32 +102,23 @@ public class Table {
             validate();
         }
 
-    }
 
-// Dentro da classe ChessMatch
-
-// ...
-
-    public void assignTileColors() {
-
-        for (int row = 0; row < board.getRows(); row++) {
-            for (int column = 0; column < board.getColumns(); column++) {
-                int tileId = row * board.getColumns() + column;
-                assignTileColor(tileId);
+        private void assignTileColor() {
+            if (ChessGUI.INSTANCE.EIGHTH_RANK.get(this.tileId) ||
+                    ChessGUI.INSTANCE.SIXTH_RANK.get(this.tileId) ||
+                    ChessGUI.INSTANCE.FOURTH_RANK.get(this.tileId) ||
+                    ChessGUI.INSTANCE.SECOND_RANK.get(this.tileId)) {
+                setBackground(this.tileId % 2 == 0 ? lightTileColor : darkTileColor);
+            } else if(ChessGUI.INSTANCE.SEVENTH_RANK.get(this.tileId) ||
+                    ChessGUI.INSTANCE.FIFTH_RANK.get(this.tileId) ||
+                    ChessGUI.INSTANCE.THIRD_RANK.get(this.tileId)  ||
+                    ChessGUI.INSTANCE.FIRST_RANK.get(this.tileId)) {
+                setBackground(this.tileId % 2 != 0 ? lightTileColor : darkTileColor);
             }
         }
     }
-
-    private void assignTileColor(int tileId) {
-        int row = 8 - (tileId / 8);
-        int column = tileId % 8;
-
-        setBackground((row % 2 == 0 && column % 2 == 0) ? lightTileColor : darkTileColor);
-        } else {
-            setBackground(darkTileColor);
-        }
-    }
-
 }
+
+
 
 
