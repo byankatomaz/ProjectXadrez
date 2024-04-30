@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="f5b5d872-21b6-4066-89b6-f0b10fad8464" name="Changes" comment="feat: chess position" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 5
+}</component>
+  <component name="ProjectId" id="2Tz6AwV9Hdr0rRstE0zH6KluNfc" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.Main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "preferences.pluginManager",
+    "vue.rearranger.settings.migration": "true"
+  }
+}]]></component>
+  <component name="RunAnythingCache">
+    <option name="myCommands">
+      <command value="Main" />
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="ProjectXadrez" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="jdk-20.0.2-corretto-20.0.2.1-4caba194b151-5bc9ecd2" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="f5b5d872-21b6-4066-89b6-f0b10fad8464" name="Changes" comment="" />
+      <created>1692033422343</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1692033422343</updated>
+      <workItem from="1692033430241" duration="90000" />
+      <workItem from="1692033533425" duration="14000" />
+      <workItem from="1692033561278" duration="48000" />
+    </task>
+    <task id="LOCAL-00001" summary="ci: gitignore .idea">
+      <option name="closed" value="true" />
+      <created>1714485622272</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485622272</updated>
+    </task>
+    <task id="LOCAL-00002" summary="ci: gitignore production">
+      <option name="closed" value="true" />
+      <created>1714485634344</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485634344</updated>
+    </task>
+    <task id="LOCAL-00003" summary="ci: gitignore">
+      <option name="closed" value="true" />
+      <created>1714485646953</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485646953</updated>
+    </task>
+    <task id="LOCAL-00004" summary="ci: gitignore production office">
+      <option name="closed" value="true" />
+      <created>1714485655245</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485655245</updated>
+    </task>
+    <task id="LOCAL-00005" summary="feat: bi">
+      <option name="closed" value="true" />
+      <created>1714485695650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485695650</updated>
+    </task>
+    <task id="LOCAL-00006" summary="feat: board xadrez">
+      <option name="closed" value="true" />
+      <created>1714485711069</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485711069</updated>
+    </task>
+    <task id="LOCAL-00007" summary="feat: chess exception">
+      <option name="closed" value="true" />
+      <created>1714485726317</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485726317</updated>
+    </task>
+    <task id="LOCAL-00008" summary="feat: chess exception">
+      <option name="closed" value="true" />
+      <created>1714485740962</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485740962</updated>
+    </task>
+    <task id="LOCAL-00009" summary="feat: chess GUI">
+      <option name="closed" value="true" />
+      <created>1714485755395</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485755395</updated>
+    </task>
+    <task id="LOCAL-00010" summary="feat: chess Match">
+      <option name="closed" value="true" />
+      <created>1714485770890</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485770890</updated>
+    </task>
+    <task id="LOCAL-00011" summary="feat: chess piece cla">
+      <option name="closed" value="true" />
+      <created>1714485791527</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485791527</updated>
+    </task>
+    <task id="LOCAL-00012" summary="feat: chess position">
+      <option name="closed" value="true" />
+      <created>1714485863311</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1714485863311</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="ci: gitignore .idea" />
+    <MESSAGE value="ci: gitignore production" />
+    <MESSAGE value="ci: gitignore production office" />
+    <MESSAGE value="feat: bishop chesspiece" />
+    <MESSAGE value="feat: board xadrez" />
+    <MESSAGE value="feat: board exception" />
+    <MESSAGE value="feat: chess exception" />
+    <MESSAGE value="feat: chess GUI" />
+    <MESSAGE value="feat: chess Match" />
+    <MESSAGE value="feat: chess piece class abstract" />
+    <MESSAGE value="feat: chess position" />
+    <option name="LAST_COMMIT_MESSAGE" value="feat: chess position" />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
